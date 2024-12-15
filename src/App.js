@@ -18,13 +18,11 @@ const App = () => (
         <Navbar />
         <div className="content">
           <Routes>
-            <Route path="/" element={<Dashboard />} />
+            <Route path="/" element={<About />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/about" element={<About />} />
             <Route path="/extract-info" element={<ExtractInfo />} />
             <Route path="/license-plate-extractor" element={<LicensePlateExtractor />} />
             <Route path="/hello-user" element={<HelloUser />} />
-            <Route path="/default" element={<DefaultPage />} />
             <Route path="*" element={<h1>404: Page Not Found</h1>} />
           </Routes>
         </div>

@@ -16,7 +16,7 @@ const Navbar = () => {
           Car Detection App
         </Typography>
         <Box>
-          <Button color="inherit" onClick={() => navigate('/about')}>
+          <Button color="inherit" onClick={() => navigate('/')}>
             About
           </Button>
           <Button color="inherit" onClick={() => navigate('/login')}>
