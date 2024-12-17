@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Dashboard from './pages/Dashboard';
 import Login from './pages/Login';
 import About from './pages/About';
 import ExtractInfo from './pages/ExtractInfo';
