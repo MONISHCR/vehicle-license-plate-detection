@@ -30,7 +30,7 @@ const VehicleDetails = () => {
       <div className="search-bar">
         <span className="country-icon">
           <img
-            src="path_to_flag_icon.png"
+            src={require('./nnf.svg')} // Correct path to the SVG in the same directory
             alt="Country"
             className="flag-icon"
           />

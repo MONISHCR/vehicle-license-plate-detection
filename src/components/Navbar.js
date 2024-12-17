@@ -28,9 +28,7 @@ const Navbar = () => {
           <Button color="inherit" onClick={() => navigate('/license-plate-extractor')}>
             License Plate Extractor
           </Button>
-          <Button color="inherit" onClick={() => navigate('/default')}>
-            Default Page
-          </Button>
+          
         </Box>
       </Toolbar>
     </AppBar>
